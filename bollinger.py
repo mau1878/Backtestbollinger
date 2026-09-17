@@ -11,17 +11,10 @@ from plotly.subplots import make_subplots
 
 # Add this near the top of your app
 # Add this near the top of your app
-with st.expander("Cómo obtener tu MTZ Web Key"):
+with st.expander(""):
     st.markdown("""
     Para obtener tu MTZ Web Key:
-    1. Ingresa a matriz.cocos.xoms.com.ar
-    2. Inicia sesión en tu cuenta
-    3. Abre las Herramientas de Desarrollo del navegador (F12)
-    4. Ve a Aplicación > Cookies
-    5. Busca el valor de la cookie '_mtz_web_key'
-    6. Copia y pega ese valor en el campo MTZ Web Key de la barra lateral
-
-    ⚠️ Mantén tu MTZ Web Key privada y nunca la compartas con otros.
+    
     """)
 # Data fetching functions
 def construct_symbol_id(ticker, market_type):
