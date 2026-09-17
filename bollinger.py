@@ -13,7 +13,7 @@ from plotly.subplots import make_subplots
 # Add this near the top of your app
 with st.expander(""):
     st.markdown("""
-    Para obtener tu MTZ Web Key:
+    y:
     
     """)
 # Data fetching functions
@@ -21,9 +21,9 @@ def construct_symbol_id(ticker, market_type):
     return f"bm_MERV_{ticker}_{market_type}"
 
 def get_stock_data(symbol_id, lookback_days, mtz_web_key):
-    """Fetch data from Matriz Cocos API"""
+    """"""
     if not mtz_web_key:
-        st.error("Por favor, ingresa tu MTZ Web Key en la barra lateral.")
+        st.error(".")
         return None
 
     cookies = {
